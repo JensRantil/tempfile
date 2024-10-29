@@ -12,7 +12,7 @@ This is a workaround for https://github.com/golang/go/issues/4896.
 Example
 -------
 ```go
-import "github.com/tink-ab/tempfile"
+import "github.com/JensRantil/tempfile"
 
 myFile, err := tempfile.TempFile("", "my-prefix", "my-suffix")
 if err != nil {
